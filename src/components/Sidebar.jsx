@@ -15,7 +15,7 @@ const Sidebar = ({onSetNumber}) => {
         <div className="sidebar">
     
             <button className={activeBtn.b1 && "active"} onClick={()=>{
-                onSetNumber(1)
+                onSetNumber("b1")
                 setActiveBtn(
                     {
         b1:true,
@@ -30,7 +30,7 @@ const Sidebar = ({onSetNumber}) => {
             }}>b1</button>
             <button className={`"" ${activeBtn.b2 && "active"}`} onClick={()=>{
                 console.log("b2")
-                onSetNumber(2)
+                onSetNumber("b2")
                 setActiveBtn(
                     {
         b1:false,
@@ -45,7 +45,7 @@ const Sidebar = ({onSetNumber}) => {
             }}>b2</button>
             <button className={activeBtn.b3 && "active"}
             onClick={()=>{
-                onSetNumber(3)
+                onSetNumber("b3")
                 setActiveBtn(
                     {
         b1:false,
@@ -60,7 +60,7 @@ const Sidebar = ({onSetNumber}) => {
             }}>b3</button>
             <button className={activeBtn.b4 && "active"}
             onClick={()=>{
-                onSetNumber(4)
+                onSetNumber("b4")
                 setActiveBtn(
                     {
         b1:false,
@@ -75,7 +75,7 @@ const Sidebar = ({onSetNumber}) => {
             }}>b4</button>
             <button className={activeBtn.b5 && "active"}
             onClick={()=>{
-                onSetNumber(5)
+                onSetNumber("b5")
                 setActiveBtn(
                     {
         b1:false,
@@ -90,7 +90,7 @@ const Sidebar = ({onSetNumber}) => {
             }}>b5</button>
             <button className={activeBtn.b6 && "active"} 
             onClick={()=>{
-                onSetNumber(6)
+                onSetNumber("b6")
                 setActiveBtn(
                     {
         b1:false,
@@ -105,7 +105,7 @@ const Sidebar = ({onSetNumber}) => {
             }}>b6</button>
             <button className={activeBtn.b7 && "active"} 
             onClick={()=>{
-                onSetNumber(7)
+                onSetNumber("b7")
                 setActiveBtn(
                     {
         b1:false,
